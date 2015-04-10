@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Travian
+    style.
+      .controlBox {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 30px;
+      }
+      .logBox {
+        position: fixed;
+        top: 30px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow-y: scroll;
+      }
+  body
+    .controlBox
+      button Run
+      button Start
+      button Stop
+    .logBox
+      != log
+
